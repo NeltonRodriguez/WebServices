@@ -6,7 +6,8 @@ Para el funcionamiento del backend:
 
 1. Debes de crear un entorno virtual (venv) ==> python3 -m venv venv
 2. Activar entorno: venv/Scripts/Activate
-3. Para instalar todo lo necesario para que el backend funcione ejecuta: pip install -r requirements.txt (necesitas estar en el entorno virtual)
+3. Presiona: ctrl shift p, click en "Select Python Interpreter" y click en el venv interpreter (el de la estrella)
+4. Para instalar todo lo necesario para que el backend funcione ejecuta: pip install -r requirements.txt (necesitas estar en el entorno virtual)
 
 Luego:
 
