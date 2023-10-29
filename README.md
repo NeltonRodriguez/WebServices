@@ -23,6 +23,8 @@ Para ejecutar el front:
 
 1. Abrir otra terminal
 2. Ejecutar cd frontend
-3. Ejecutar: npm run dev
+3. Ejecuta: npm i react-router-dom react-hot-toast axios react-hook-form (SOLO LA 1RA VEZ, es solo para instalar esos paquetes)
+4. Ejecutar: npm run dev
+
 
 Nota: Debes tener instalado Python en tu pc!
