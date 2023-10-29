@@ -28,4 +28,4 @@ Para ejecutar el front:
 4. Ejecutar: npm run dev
 
 
-Nota: Debes tener instalado Python en tu pc!
+Nota: Debes tener instalado Python y NodeJS en tu pc!
