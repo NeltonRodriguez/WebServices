@@ -35,7 +35,7 @@ class HistorialCrediticio(models.Model):
     rnc_empresa_adeuda = models.CharField(max_length=15)
     concepto_deuda = models.TextField()
     fecha = models.DateTimeField(auto_now=True)
-
+    
     def __str__(self):
         return f"{self.cliente_cedula.cliente_cedula} - {self.cliente_cedula.nombre_cliente} - {self.rnc_empresa_adeuda} - {self.fecha}"
 

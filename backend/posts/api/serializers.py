@@ -31,6 +31,7 @@ class HistorialCrediticioSerializer(ModelSerializer):
         model = HistorialCrediticio
         fields = ['id', 'cliente_cedula', 'monto_total_adeudado_cliente', 'rnc_empresa_adeuda', 'concepto_deuda', 'fecha', 'nombre_propietario']
 
+
 class ConsultaServicioTasaCambioSerializer(ModelSerializer):
     class Meta:
         model = ConsultaServicioTasaCambio
