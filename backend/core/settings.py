@@ -28,7 +28,9 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     'localhost',
-    'NeltonRg.pythonanywhere.com'
+    'NeltonRg.pythonanywhere.com',
+    'http://neltonrg.pythonanywhere.com/',
+    'neltonrg.pythonanywhere.com/'
 ]
 
 
