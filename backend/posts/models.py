@@ -10,6 +10,11 @@ class TasaCambiaria(models.Model):
     codigo_moneda = models.CharField(max_length=3, unique=True)  # PES, DOL, EUR, etc.
     tasa = models.DecimalField(max_digits=5, decimal_places=2)  # Max 999.99
 
+    def save(self, *args, **kwargs):
+        self.codigo_moneda = self.codigo_moneda.upper()
+        super().save(*args, **kwargs)
+
+    
     def __str__(self):
         return f"{self.codigo_moneda} - {self.tasa}"
 
