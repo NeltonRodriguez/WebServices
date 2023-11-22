@@ -7,7 +7,7 @@ OPCIONES_INDICADOR = [
 ]
 
 class TasaCambiaria(models.Model):
-    codigo_moneda = models.CharField(max_length=3)  # PES, DOL, EUR, etc.
+    codigo_moneda = models.CharField(max_length=3, unique=True)  # PES, DOL, EUR, etc.
     tasa = models.DecimalField(max_digits=5, decimal_places=2)  # Max 999.99
 
     def __str__(self):
