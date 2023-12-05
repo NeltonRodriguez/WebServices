@@ -27,6 +27,7 @@ SECRET_KEY = 'django-insecure-iysn!s-u-5wb)+(il6@u4vb)@5f=h^f8_92qcm)sg1!^nb-$0b
 DEBUG = False
 
 ALLOWED_HOSTS = [
+    '*',
     'localhost',
     'NeltonRg.pythonanywhere.com',
     'http://neltonrg.pythonanywhere.com/',
@@ -43,15 +44,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
+
     'rest_framework',
     'corsheaders',
     'posts',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173'
-]
+# CORS_ALLOWED_ORIGINS = [
+#     'http://localhost:5173'
+# ]
+
+CORS_ORIGIN_ALLOW_ALL = True
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
