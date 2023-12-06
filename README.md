@@ -20,6 +20,8 @@ Puntos de accesos del backend:
 1. API: http://127.0.0.1:8000/api/
 2. Documentacion: http://127.0.0.1:8000/docs/
 
+Link de la API: https://neltonrg.pythonanywhere.com/api/
+
 Para ejecutar el front:
 
 1. Abrir otra terminal
