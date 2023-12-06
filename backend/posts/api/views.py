@@ -26,7 +26,7 @@ class HistorialCrediticioViewSet(ModelViewSet):
     queryset = HistorialCrediticio.objects.all()
     serializer_class = HistorialCrediticioSerializer
     filter_backends = [filters.SearchFilter]
-    search_fields = ['cliente_cedula', 'fecha']
+    search_fields = ['cliente_cedula__cliente_cedula', 'rnc_empresa_adeuda', 'concepto_deuda', 'fecha']
 
 class ConsultaServicioTasaCambioViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = ConsultaServicioTasaCambio.objects.all()
